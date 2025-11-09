@@ -38,7 +38,8 @@ jobs:
         cp checker.html zip/files/
         cp ciphertext.png zip/files/
         cp encryptingtext.mp3 zip/files/
-        zip -j zipfile.zip zip/
+        cd zip
+        zip -r ../zipfile.zip ./
 
     - name: Create Polyglot
       run: |
