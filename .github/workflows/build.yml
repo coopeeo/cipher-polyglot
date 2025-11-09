@@ -43,6 +43,7 @@ jobs:
 
     - name: Create Polyglot
       run: |
+        alias convert='magick'
         bun run beheader/beheader.js resultingpolyglot.png ciphertext.png encryptingtext.mp3 -h checker.html -z zipfile.zip
     
     - name: Upload Artifact
