@@ -1,0 +1,4 @@
+In here are all the files and info used to make this thing.
+
+You can find it on GitHub at https://github.com/coopeeo/cipher-polyglot
+- p2r3's Polyglot File Maker: https://github.com/p2r3/beheader
